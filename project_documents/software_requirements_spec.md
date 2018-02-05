@@ -1,6 +1,9 @@
 # SOFTWARE REQUIREMENTS SPECIFICATION
 ## 5.1 INTRODUCTION
 This Software Requirements Specification (SRS) documents the requirements for the BIGBOIBOT Discord bot. BIGBOIBOT is a multipurpose bot for the social media platform known as Discord. Our focus will be to enhance the Discord user experience with extra functionality that is not natively available with Discord. Some of the functionality that BIGBOIBOT will provide will include interaction with outward facing APIs, word translations, channel management, music players, and more, providing users countless new ways to interact with other users in an online chatroom environment. BIGBOIBOT will be written mostly if not purely in JavaScript and thus will require our knowledge of the language (and node.js) to do so. We are looking forward to hosting it on a third-party server to ensure it runs 24/7.
+
+![Homepage Example](./images/BBB-uml-diagram.png)
+
 ## 5.2 FUNCTIONAL REQUIREMENTS
 - 5.2.1 **BIG BOI BOT**: Bot that can be added to channels
   - 5.2.1.1 Big Boi Bot shall be added by Channel administrators.
