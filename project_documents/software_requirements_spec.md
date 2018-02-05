@@ -7,23 +7,24 @@ This Software Requirements Specification (SRS) documents the requirements for th
 ## 5.2 FUNCTIONAL REQUIREMENTS
 - 5.2.1 **BIG BOI BOT**: Bot that can be added to channels
   - 5.2.1.1 Big Boi Bot shall be added by Channel administrators.
-  - 5.2.1.2 Big Boi Bot shall have a information page on https://discordbots.org
-    - Channel Administrators will invite Big Boi Bot to a channel through https://discordbots.org invite button.
-  - 5.2.1.3 Big Boi Bot shall have its own website.
+  - 5.2.1.2 Big Boi Bot shall be a Discord Verified Bot through https://discordbots.org
+  - 5.2.1.3 Big Boi Bot shall have a information page on https://discordbots.org
+    - Channel Administrators will invite Big Boi Bot to a channel through Big Boi Bot's page on https://discordbots.org invite button.
+  - 5.2.1.4 Big Boi Bot shall have its own website.
     - The website will contain user documentation.
     - Channel administrators will be able to invite Big Boi Bot to a channel through the website's invite button.
     - The website will have a button to Big Boi Bot's GitHub repository.
-  - 5.2.1.4 Big Boi Bot shall provide user commands to access its functionality.
+  - 5.2.1.5 Big Boi Bot shall provide user commands to access its functionality.
     - Big Boi Bot will query UrbanDictionary in a channel to define keyterms when a user types '@BIGBOIBOT urbandictionary <keyterm>' in a channel.
     - Big Boi Bot will query OverWatch player statistics in a channel when a user types '@BIGBOIBOT overwatch <overwatch_id>'.
     - Big Boi Bot will query present NBA game scores in a channel when a user types '@BIGBOIBOT overwatch <team_one> <team_two>'.
+    - Big Boi Bot will query Giphy gifs in a channel when a user types '@BIGBOIBOT gifme <keyterm>'.
     - Big Boi Bot will mute channel users in a channel when a Channel administrator types
     '@BIGBOIBOT mute @<verified_discord_user>'.
     - Big Boi Bot will unmute channel users in a channel when a Channel administrator types
     '@BIGBOITBOT unmute @<verified_discord_user>'.
     - Big Boi Bot will kick channel users in a channel when a Channel administrator types '@BIGBOIBOT kick @<verified_discord_user>'.
     - Big Boi Bot will invite channel users to a channel when a Channel administrator types '@BIGBOIBOT invite @<verified_discord_user>'.
-    -
 
 ## 5.3 PERFORMANCE REQUIREMENTS
   - 5.4.1 Once the user has the website hosting our bot open, adding the bot either through our own website or Discord's website should take no longer than 5 seconds.
@@ -39,8 +40,7 @@ This Software Requirements Specification (SRS) documents the requirements for th
        - 5.4.4.3.1 Verification of kicking the bot should take less than 1 second to execute.
 
 ## 5.4 ENVIRONMENT REQUIREMENTS
-
-### 5.5.1	Development Environment Requirements
+### 5.4.1	Development Environment Requirements
 Hardware Requirements
 
 | Category | Requirement |
